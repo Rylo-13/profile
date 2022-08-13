@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: rgba(226, 226, 226, 0.69);
+  line-height: 1.2;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color:rgb(42, 40, 40, .80);
+  font-family: 'Silkscreen', cursive;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+h2, h3 {
+  color:rgb(62, 62, 62);
+  font-size: 20px;
+}
+
+h3 {
+  color:rgb(255, 255, 255);
+  background-color: black;
+}
+
+a, p, img, i {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+i {
+  font-size: 38px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+img {
+  height: 375px;
+  width: 320px;
+  border-radius: 50%;
+}
+
+.btn-purple {
+  color: white;
+  background-color: #782ebe;
+  font-family: 'Silkscreen', cursive;
+  border-radius: 5px;
+  padding: 2px;
+  padding-bottom: 3px;
+  padding-inline-start:11px;
+  padding-inline-end: 11px;
+}
+
+.btn-purple:hover {
+  color: white;
+  background-color: #6522a4;
+  padding: 3.5px;
+  padding-bottom: 4.5px;
+  padding-inline-start:12.5px;
+  padding-inline-end: 12.5px;
+}
+
+.container {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border: .5px solid lightgray;
+  margin: 25px 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 300px;
+  }
+}
